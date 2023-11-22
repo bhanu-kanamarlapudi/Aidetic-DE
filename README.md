@@ -37,7 +37,9 @@ To run this code, you need:
 2. PySpark 3.0+
 3. pandas
 4. MySQL Connector Python module
-5. MySQL JAR Connector - https://dev.mysql.com/downloads/connector/j/
+5. MySQL JAR Connector - https://dev.mysql.com/downloads/connector/j/<br/>
+
+To install python modules, run the following command: ```pip install -r requirements.txt```
    
 ## Configuration
 > Important:
