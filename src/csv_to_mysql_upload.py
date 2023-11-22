@@ -95,9 +95,9 @@ def csv_to_mysql(csv_file, table_name, host, user, password, database):
 # Replace these values with your own MySQL credentials and file paths
 host = "localhost"
 user = "root"
-password = "kaushikB!025"
+password = ""
 database = "aidetic"
-csv_file = "/Users/bhanukaushikkanamarlapudi/Desktop/Aidetic/database.csv"
+csv_file = "../database.csv"
 table_name = "neic_earthquakes"
 
 # Call the function to import CSV data into MySQL

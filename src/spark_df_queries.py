@@ -211,7 +211,7 @@ def spark_sql_questions():
         "url": "jdbc:mysql://localhost:3306/aidetic",
         "driver": "com.mysql.cj.jdbc.Driver",
         "user": "root",
-        "password": "kaushikB!025",
+        "password": "",
         "table_name": "neic_earthquakes"
     }
 
