@@ -4,6 +4,7 @@ This project performs analysis on earthquake data using PySpark SQL and DataFram
 
 ## Data
 The data is stored in a MySQL database table named neic_earthquakes with the following schema:
+```sql
 CREATE TABLE IF NOT EXISTS neic_earthquakes (
     `Date` DATE,
     `Time` TIME,
@@ -27,6 +28,8 @@ CREATE TABLE IF NOT EXISTS neic_earthquakes (
     `Magnitude Source` VARCHAR(255),
     `Status` VARCHAR(255)
     );
+```
+
 ## Requirements
 To run this code, you need:
 
@@ -34,9 +37,12 @@ To run this code, you need:
 2. PySpark 3.0+
 3. pandas
 4. MySQL Connector Python module
-5. MySQL JAR Connector
+5. MySQL JAR Connector - https://dev.mysql.com/downloads/connector/j/
+   
 ## Configuration
-Update the following constants in the code to match your database configuration:
+> Important:
+> Update the following constants in the code to match your database configuration:
+
 
 1. host = "localhost"
 2. user = ""
@@ -51,7 +57,7 @@ To execute the PySpark script for this analysis:
 1. Ensure you meet all the requirements and configuration steps above
 2. Navigate to the project directory: /src/
 3. To upload data from csv to mysql table, run the following command:
-   python3 csv_to_mysql_upload.py
+   ```python3 csv_to_mysql_upload.py```
 5. To read data and run queries, Run the following command:
-   spark-submit --jars ../mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar spark_df_queries.py
+   ```spark-submit --jars ../mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar spark_df_queries.py```
 7. The output results will be displayed
