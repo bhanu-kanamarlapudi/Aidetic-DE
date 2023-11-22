@@ -34,7 +34,7 @@ To run this code, you need:
 2. PySpark 3.0+
 3. pandas
 4. MySQL Connector Python module
-
+5. MySQL JAR Connector
 ## Configuration
 Update the following constants in the code to match your database configuration:
 
