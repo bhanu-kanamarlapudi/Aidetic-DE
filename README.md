@@ -56,8 +56,10 @@ To execute the PySpark script for this analysis:
 
 1. Ensure you meet all the requirements and configuration steps above
 2. Navigate to the project directory: /src/
-3. To upload data from csv to mysql table, run the following command:
+3. To upload data from CSV to MySQL table, run the following command:
    ```python3 csv_to_mysql_upload.py```
-5. To read data and run queries, Run the following command:
-   ```spark-submit --jars ../mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar spark_df_queries.py```
-7. The output results will be displayed
+4. Follow these instructions to read data and execute queries:
+   1. To execute all queries, use the following command: ```spark-submit --jars ../mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar spark_df_queries.py --all all```
+   2. To execute a specific query, use the following command: ```spark-submit --jars ../mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar spark_df_queries.py --questionNum 1```
+   3. For Query-2, the default year is set to 2015. To execute for a different year, add the following argument to the above commands: ```--yearOfInterest 1995```
+5. The output results will be displayed
