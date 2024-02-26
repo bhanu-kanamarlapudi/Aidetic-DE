@@ -1,5 +1,4 @@
-# Aidetic-DE
-## Earthquake Analysis with PySpark
+# Earthquake Analysis with PySpark
 This project performs analysis on earthquake data using PySpark SQL and DataFrames.
 
 ## Data
