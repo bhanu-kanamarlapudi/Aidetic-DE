@@ -65,7 +65,7 @@ To execute the PySpark script for this analysis:
    3. For Query-2, the default year is set to 2015. To execute for a different year, add the following argument to the above commands: ```--yearOfInterest 1995```
 5. The output results will be displayed
 
-## Questions
+## Questions answered through Analysis
 1. How does the Day of the Week affect the number of earthquakes?
 2. What is the relation between the Day of the month and the number of earthquakes that happened in a year?
 3. What does the average frequency of earthquakes in a month from the year 1965 to 2016 tell us?
