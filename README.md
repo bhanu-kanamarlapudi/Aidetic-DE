@@ -64,3 +64,14 @@ To execute the PySpark script for this analysis:
    2. To execute a specific query, use the following command: ```spark-submit --jars ../mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar spark_df_queries.py --questionNum 1```
    3. For Query-2, the default year is set to 2015. To execute for a different year, add the following argument to the above commands: ```--yearOfInterest 1995```
 5. The output results will be displayed
+
+## Questions
+1. How does the Day of the Week affect the number of earthquakes?
+2. What is the relation between the Day of the month and the number of earthquakes that happened in a year?
+3. What does the average frequency of earthquakes in a month from the year 1965 to 2016 tell us?
+4. What is the relation between the Year and Number of earthquakes that happened in that year?
+5. How has the earthquake magnitude on average been varied over the years?
+6. How does the year impact the standard deviation of the earthquakes?
+7. Does geographic location have anything to do with earthquakes?
+8. Where do earthquakes occur very frequently?
+9. What is the relation between Magnitude, Magnitude Type, Status, and Root Mean Square of the earthquakes?
